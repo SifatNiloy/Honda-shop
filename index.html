@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Honda CBR</title>
 
     <!-- css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,43 +18,44 @@
 </head>
 <body>
   <!-- first section  -->
-  <section class=" bg-honda-cbr text-white ">
-    <div class="container d-flex py-5 ">
-        <div class="left pt-5 mt-5">
+  <section class="bg-honda-cbr text-white ">
+    <div class="container py-5  ">
+        <div class="row">
+          <div class="col-lg-6 col-12 py-5 my-5">
             <p>Computer-controlled digital transistorized with electronic advance</p>
             <h1 >Honda CBR 300R</h1>
             <p>In the city, the CBR300R returns an insane fuel economy and has a pretty good range. Thanks to its 71 mpg rating, the 3.4-gallon fuel tank affords more than 220 miles of range. So, it may not fare well on the highway, but it'll get plenty of mileage around town.</p>
             <div>
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Purchase
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Purchese</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <p>Want to add on your cart?</p>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Not Now</button>
-                              <button type="button" class="btn btn-primary">Continue</button>
-                            </div>
-                        </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Purchase
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Confirm</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <div class="modal-body">
+                      <p>Are You Sure? </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Add to cart</button>
+                    </div>
+                  </div>
                 </div>
-  
+              </div>
+
             </div>
-        </div>
-        <div class="right">
-            <img src="images/header-bike.png" alt="">
+          </div>
+          <div class="col-lg-6 col-12">
+              <img src="images/header-bike.png" alt="">
+          </div>
         </div>
     </div>
   </section>
@@ -62,16 +63,24 @@
 <!-- ===========first section finished================ -->
 <!-- ===============fetured bikes section============== -->
   <section class="fetured-bikes mt-5 ">
-    <div class="container">
+    <div class="container ">
         <div >
-            <h1 class="d-flex justify-content-center" >Fetured Bikes 2021</h1>
-            <h6 class="d-flex justify-content-center orange-text mb-5" >Best Bike Collection</h6>
+            <h1 class="text-center" >Fetured Bikes 2021</h1>
+            <h6 class="text-center orange-text mb-5" >Best Bike Collection</h6>
         </div>
-        <div class="d-flex justify-content-between">
-          <img class="gray" src="images/feature-bike.jpg" alt="">
-          <img src="images/feature-bike.jpg" alt="">
-          <img class="gray" src="images/feature-bike.jpg" alt="">
+        
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-4 col-12">
+            <img class="gray" src="images/feature-bike.jpg" alt="">
+          </div>
+          <div class="col-lg-4 col-12">
+            <img src="images/feature-bike.jpg" alt="">
+          </div>
+          <div class="col-lg-4 col-12">
+            <img class="gray" src="images/feature-bike.jpg" alt="">
+          </div>
         </div>
+        
     </div>
   </section>
 
@@ -152,58 +161,60 @@
   </section>
 
     <!-- ===========accordian added=============== -->
-  <section>
-    <div class="container d-flex">
-      <div class="pe-5">
-        <img src="images/faq.png" alt="">
-      </div>
-      <div>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What are the most important things I should know about riding a bike?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+  <section >
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12">
+          <img src="images/faq.png" alt="">
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What are the most important things I should know about riding a bike?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How can I tell if my helmet is old and I need a new one?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>If a helmet is visibly damaged – a cracked outer shell, crushed or cracked foam liner or any other damage – don't use it. Any exposed EPS can start to look chipped or worn and if the polycarbonate shell shows a dent of any sort then you should replace the helmet.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How can I tell if my helmet is old and I need a new one?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>If a helmet is visibly damaged – a cracked outer shell, crushed or cracked foam liner or any other damage – don't use it. Any exposed EPS can start to look chipped or worn and if the polycarbonate shell shows a dent of any sort then you should replace the helmet.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                My bike has been in storage is it safe to ride?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Cars and bikes that have not been used for more than six months are likely to see degradation of the oils and greases in them. If the vehicle is used after that it will need to be serviced first, replacing oil and coolant if needed.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  My bike has been in storage is it safe to ride?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Cars and bikes that have not been used for more than six months are likely to see degradation of the oils and greases in them. If the vehicle is used after that it will need to be serviced first, replacing oil and coolant if needed.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                What rules should I follow when riding my bike?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Ride on the right in the same direction as other vehicles. Go with the flow – not against it. Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.Be visible at all times.Be predictable. Stay Alert at All Times. Use your eyes AND ears.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What rules should I follow when riding my bike?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Ride on the right in the same direction as other vehicles. Go with the flow – not against it. Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.Be visible at all times.Be predictable. Stay Alert at All Times. Use your eyes AND ears.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -218,8 +229,8 @@
 
   <section>
     <div class="container my-5">
-      <h1 class="d-flex justify-content-center">Pre Order New Bikes</h1>
-      <p class="d-flex justify-content-center"> pre-order your 2021 bike with 20% discount</p>
+      <h1 class="text-center">Pre Order New Bikes</h1>
+      <h6 class="text-center"> pre-order your 2021 bike with 20% discount</h6>
     </div>
     <div class="container">
       <div class="card-group">
